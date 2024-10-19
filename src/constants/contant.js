@@ -1,0 +1,6 @@
+export const AUTHENTICATE = "AUTHENTICATE";
+export const LOGOUT = "LOGOUT";
+export const REGISTER = "REGISTER";
+export const RESETREGISTER = "RESETREGISTER";
+export const ADD_ITEM_IN_CART = "ADD_ITEM_IN_CART";
+export const REMOVE_ITEM_IN_CART = "REMOVE_ITEM_IN_CART";
