@@ -11,8 +11,8 @@ export const isUserAuthenticated = (payload) => {
 export const hasUserValidCredentials = (user) => {
     return async (dispatch) => {
         try {
-            const isUserValid = await userLogin(user.emailUser, user.password)
-            dispatch(isUserAuthenticated(isUserValid.data))
+            const isUserValid = await userLogin(user.emailUser, user.password);
+            dispatch(isUserAuthenticated(isUserValid.data));
         } catch (error) {
             console.log(error);
         }
